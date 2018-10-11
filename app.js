@@ -23,7 +23,7 @@ function addTask(e) {
   if(taskInput.value === '') {
     alert('Add a Task');
   }
-
+  else{
   // Create li element
   const li = document.createElement('li');
   // Add class
@@ -44,7 +44,7 @@ function addTask(e) {
 
   // Clear input
   taskInput.value = '';
-
+  }
   e.preventDefault();
 }
 
